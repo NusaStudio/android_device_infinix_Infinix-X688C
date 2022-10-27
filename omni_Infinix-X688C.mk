@@ -34,4 +34,4 @@ PRODUCT_NAME := omni_Infinix-X688C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix
 PRODUCT_MANUFACTURER := infinix
-PRODUCT_RELEASE_NAME := Infinix Infinix
+#PRODUCT_RELEASE_NAME := Infinix Infinix
