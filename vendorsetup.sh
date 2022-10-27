@@ -16,5 +16,6 @@
 # limitations under the License.
 #
 
+add_lunch_combo omni_Infinix-X688C-user
 add_lunch_combo omni_Infinix-X688C-userdebug
 add_lunch_combo omni_Infinix-X688C-eng
