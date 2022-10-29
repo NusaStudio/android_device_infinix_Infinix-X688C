@@ -30,8 +30,21 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Infinix-X688C
-PRODUCT_NAME := omni_Infinix-X688C
+PRODUCT_NAME := omni_mt6765
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix
-PRODUCT_MANUFACTURER := infinix
+PRODUCT_MODEL := Infinix X688C
+PRODUCT_MANUFACTURER := Infinix Mobile Limited
 #PRODUCT_RELEASE_NAME := Infinix Infinix
+
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 29
+
+# API
+PRODUCT_SHIPPING_API_LEVEL := 29
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock
