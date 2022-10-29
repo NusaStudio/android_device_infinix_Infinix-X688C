@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/infinix/Infinix-X688C
+LOCAL_PATH := device/infinix/mt6765
 
