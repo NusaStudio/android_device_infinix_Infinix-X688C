@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/mt6765
+DEVICE_PATH := device/infinix/mt6765
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
