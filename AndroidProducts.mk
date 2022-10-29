@@ -17,7 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Infinix-X688C.mk
-
+     $(LOCAL_DIR)/omni_mt6765.mk
+	 
 COMMON_LUNCH_CHOICES := \
-    omni_Infinix-X688C-eng
+    omni_mt6765-eng
