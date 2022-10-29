@@ -29,7 +29,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Infinix-X688C
+#PRODUCT_DEVICE := Infinix-X688C
+PRODUCT_DEVICE := mt6765
 PRODUCT_NAME := omni_mt6765
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X688C
