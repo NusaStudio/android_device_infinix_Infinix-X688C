@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), Infinix-X688C)
+ifeq ($(TARGET_DEVICE), hotplay10)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
