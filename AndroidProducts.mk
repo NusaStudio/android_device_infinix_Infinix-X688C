@@ -20,6 +20,4 @@ PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_Infinix-X688C.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Infinix-X688C-user \
-    omni_Infinix-X688C-userdebug \
     omni_Infinix-X688C-eng
